@@ -67,21 +67,44 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
     <Page Include="OknoGrupy.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="OknoProduktu.xaml">
+=======
+    <Page Include="OknoPodkategorii.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OknoKategorii.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OknoElementu.xaml">
+>>>>>>> Finalna wersja aplikacji (do oceny)
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="OknoGrupy.xaml.cs">
       <DependentUpon>OknoGrupy.xaml</DependentUpon>
     </Compile>
     <Compile Include="OknoProduktu.xaml.cs">
       <DependentUpon>OknoProduktu.xaml</DependentUpon>
+=======
+    <Compile Include="OknoPodkategorii.xaml.cs">
+      <DependentUpon>OknoPodkategorii.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OknoKategorii.xaml.cs">
+      <DependentUpon>OknoKategorii.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OknoElementu.xaml.cs">
+      <DependentUpon>OknoElementu.xaml</DependentUpon>
+>>>>>>> Finalna wersja aplikacji (do oceny)
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -109,7 +132,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Resource Include="Produkty.xml" />
+=======
+    <Resource Include="Pojazdy.xml" />
+>>>>>>> Finalna wersja aplikacji (do oceny)
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

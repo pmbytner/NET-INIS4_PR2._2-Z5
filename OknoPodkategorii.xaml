@@ -1,0 +1,61 @@
+﻿<Window x:Class="NET_INIS4_PR2._2_Z4.OknoPodkategorii"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NET_INIS4_PR2._2_Z4"
+        mc:Ignorable="d"
+        
+        Title="OknoPodkategorii"
+        Height="350"
+        Width="650"
+        FontSize="18"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="500"/>
+        </Grid.ColumnDefinitions>
+        <Label FontWeight="Bold" HorizontalAlignment="Center">Model Pojazdu</Label>
+        <Label Grid.Column="1" FontWeight="Bold" HorizontalAlignment="Center">Krótki Opis z Wikipedii</Label>
+        <ListBox
+            Grid.Row="1"
+            Name="Elementy"
+            ItemsSource="{Binding XPath=Elementy/Element}"
+            >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock 
+                        Text="{Binding XPath=Model}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            
+        </ListBox>
+        <ListBox
+            Grid.Row="1"
+Grid.Column="1"
+            Name="OpisyModeli"
+            ItemsSource="{Binding XPath=Elementy/Element}"
+            >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBox
+                        Text="{Binding XPath=OpisModelu}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
+
+        <Button
+            Grid.Row="2"
+            Grid.ColumnSpan="2"
+            Click="Szczegóły"
+            >Wyświetl Szczegóły Modelu</Button>
+    </Grid>
+</Window>

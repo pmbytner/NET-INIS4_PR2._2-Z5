@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Kategorie>
+	<Kategoria>
+		<Nazwa>Samochody Osobowe</Nazwa>
+		<Podkategorie>
+  <Podkategoria>
+    <Nazwa>Volkswagen</Nazwa>
+    <Elementy>
+      <Element id="1">
+        <Model>Passat</Model>
+		  <OpisModelu>samochód osobowy klasy średniej</OpisModelu>
+		<Klasa>D</Klasa>
+        <RokPowst>1973</RokPowst>
+        <KrajPochodzenia Kod="DE">
+          <Nazwa>Niemcy</Nazwa>
+        </KrajPochodzenia>
+      </Element>
+			<Element id="2">
+				<Model>Golf</Model>
+				<OpisModelu> samochód osobowy klasy kompaktowej</OpisModelu>
+				<Klasa>C</Klasa>
+				<RokPowst>1974</RokPowst>
+				<KrajPochodzenia Kod="DE">
+					<Nazwa>Niemcy</Nazwa>
+				</KrajPochodzenia>
+			</Element>
+	<Element id="3">
+					<Model>Touareg</Model>
+		<OpisModelu>samochód osobowy typu SUV klasy wyższej</OpisModelu>
+					<Klasa>SUV (E)</Klasa>
+					<RokPowst>2002</RokPowst>
+					<KrajPochodzenia Kod="DE">
+						<Nazwa>Niemcy</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+    </Elementy>
+  </Podkategoria>
+  <Podkategoria>
+    <Nazwa>Opel</Nazwa>
+	  <Elementy>
+		  <Element id="1">
+			  <Model>Insignia</Model>
+			  <OpisModelu> samochód osobowy klasy średniej</OpisModelu>
+			  <Klasa>D</Klasa>
+			  <RokPowst>2008</RokPowst>
+			  <KrajPochodzenia Kod="DE">
+				  <Nazwa>Niemcy</Nazwa>
+			  </KrajPochodzenia>
+		  </Element>
+		  <Element id="2">
+			  <Model>Corsa</Model>
+			  <OpisModelu> samochód osobowy klasy miejskiej</OpisModelu>
+			  <Klasa>B</Klasa>
+			  <RokPowst>1982</RokPowst>
+			  <KrajPochodzenia Kod="DE">
+				  <Nazwa>Niemcy</Nazwa>
+			  </KrajPochodzenia>
+		  </Element>
+		  <Element id="3">
+			  <Model>Astra</Model>
+			  <OpisModelu> samochód osobowy klasy kompaktowej</OpisModelu>
+			  <Klasa>C</Klasa>
+			  <RokPowst>1991</RokPowst>
+			  <KrajPochodzenia Kod="DE">
+				  <Nazwa>Niemcy</Nazwa>
+			  </KrajPochodzenia>
+		  </Element>
+	  </Elementy>
+  </Podkategoria>
+		<Podkategoria>
+			<Nazwa>Toyota</Nazwa>
+			<Elementy>
+				<Element id="1">
+					<Model>Corolla</Model>
+					<OpisModelu> samochód osobowy segmentu B, a następnie segmentu C</OpisModelu>
+					<Klasa>Początkowo B / Dzisiaj C</Klasa>
+					<RokPowst>1966</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="2">
+					<Model>Yaris</Model>
+					<OpisModelu> samochód osobowy klasy aut miejskich</OpisModelu>
+					<Klasa>B</Klasa>
+					<RokPowst>1999</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="3">
+					<Model>Auris</Model>
+					<OpisModelu> samochód osobowy klasy kompaktowej</OpisModelu>
+					<Klasa>C</Klasa>
+					<RokPowst>2006</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+			</Elementy>
+		</Podkategoria>
+		</Podkategorie>
+	</Kategoria>
+	<Kategoria>
+		<Nazwa>Samochody Ciężarowe</Nazwa>
+		<Podkategorie>
+		<Podkategoria>
+			<Nazwa>MAN</Nazwa>
+			<Elementy>
+				<Element id="1">
+					<Model>TGA</Model>
+					<OpisModelu>seria ciężkich (dwu, trzy i czteroosiowych) pojazdów użytkowych</OpisModelu>
+					<Klasa>Samochód Ciężarowy</Klasa>
+					<RokPowst>2000</RokPowst>
+					<KrajPochodzenia Kod="DE">
+						<Nazwa>Niemcy</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="2">
+					<Model>TGX</Model>
+					<OpisModelu>seria ciężkich (dwu, trzy i czteroosiowych) pojazdów użytkowych</OpisModelu>
+					<Klasa>Samochód Ciężarowy</Klasa>
+					<RokPowst>2007</RokPowst>
+					<KrajPochodzenia Kod="DE">
+						<Nazwa>Niemcy</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="3">
+					<Model>TGL</Model>
+					<OpisModelu> seria lekkich i średnich samochodów ciężarowych</OpisModelu>
+					<Klasa>Samochód Ciężarowy</Klasa>
+					<RokPowst>2005</RokPowst>
+					<KrajPochodzenia Kod="DE">
+						<Nazwa>Niemcy</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+			</Elementy>
+		</Podkategoria>
+		<Podkategoria>
+			<Nazwa>Iveco</Nazwa>
+			<Elementy>
+				<Element id="1">
+					<Model>Daily</Model>
+					<OpisModelu>samochód dostawczy klasy wyższej i lekki samochód ciężarowy o DMC do 5 ton</OpisModelu>
+					<Klasa>van segmentu E</Klasa>
+					<RokPowst>1978</RokPowst>
+					<KrajPochodzenia Kod="IT">
+						<Nazwa>Włochy</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="2">
+					<Model>Eurocargo</Model>
+					<OpisModelu>typoszereg samochodów ciężarowych o DMC od 6 do 19 ton</OpisModelu>
+					<Klasa>Samochód Ciężarowy</Klasa>
+					<RokPowst>1991</RokPowst>
+					<KrajPochodzenia Kod="IT">
+						<Nazwa>Włochy</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="3">
+					<Model>Stralis</Model>
+					<OpisModelu>ciężki samochód ciężarowy produkowany przez włoską firmę Iveco od 2002 roku</OpisModelu>
+					<Klasa>Samochód Ciężarowy</Klasa>
+					<RokPowst>2002</RokPowst>
+					<KrajPochodzenia Kod="IT">
+						<Nazwa>Włochy</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+			</Elementy>
+		</Podkategoria>
+		<Podkategoria>
+			<Nazwa>Scania</Nazwa>
+			<Elementy>
+				<Element id="1">
+					<Model>Seria G</Model>
+					<OpisModelu>Pojazd przeznaczony jest do zastosowań w transporcie długodystansowym, dystrybucji oraz budownictwie</OpisModelu>
+					<Klasa>Ciężki Samochód Ciężarowy</Klasa>
+					<RokPowst>2004</RokPowst>
+					<KrajPochodzenia Kod="SE">
+						<Nazwa>Szwecja</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="2">
+					<Model>Seria P</Model>
+					<OpisModelu>Pojazd przeznaczony jest do zastosowań w budownictwie</OpisModelu>
+					<Klasa>Lekki Samochód Ciężarowy</Klasa>
+					<RokPowst>2004</RokPowst>
+					<KrajPochodzenia Kod="SE">
+						<Nazwa>Szwecja</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="3">
+					<Model>Seria R</Model>
+					<OpisModelu>W 2005, 2010 i 2017 roku Scania serii R otrzymała tytuł Międzynarodowego Samochodu Ciężarowego Roku</OpisModelu>
+					<Klasa>Ciężki Samochód Ciężarowy</Klasa>
+					<RokPowst>2004</RokPowst>
+					<KrajPochodzenia Kod="SE">
+						<Nazwa>Szwecja</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+			</Elementy>
+		</Podkategoria>
+		</Podkategorie>
+	</Kategoria>
+	<Kategoria>
+		<Nazwa>Motocykle</Nazwa>
+		<Podkategorie>
+		<Podkategoria>
+			<Nazwa>Honda</Nazwa>
+			<Elementy>
+				<Element id="1">
+					<Model>CBR 600F</Model>
+					<OpisModelu>samochód osobowy typu SUV klasy wyższej</OpisModelu>
+					<Klasa>Sportowo-Turystyczny</Klasa>
+					<RokPowst>1986</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="2">
+					<Model>FMX 650</Model>
+					<OpisModelu>samochód osobowy typu SUV klasy wyższej</OpisModelu>
+					<Klasa>Crossowy</Klasa>
+					<RokPowst>2004</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="3">
+					<Model>Transalp</Model>
+					<OpisModelu>samochód osobowy typu SUV klasy wyższej</OpisModelu>
+					<Klasa>Turystyczny Enduro</Klasa>
+					<RokPowst>1987</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+			</Elementy>
+		</Podkategoria>
+		<Podkategoria>
+			<Nazwa>Yamaha</Nazwa>
+			<Elementy>
+				<Element id="1">
+					<Model>DT 80</Model>
+					<OpisModelu>samochód osobowy typu SUV klasy wyższej</OpisModelu>
+					<Klasa>Enduro</Klasa>
+					<RokPowst>1983</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="2">
+					<Model>FZ1</Model>
+					<OpisModelu>samochód osobowy typu SUV klasy wyższej</OpisModelu>
+					<Klasa>Naked Bike</Klasa>
+					<RokPowst>2006</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="3">
+					<Model>WR 250R</Model>
+					<OpisModelu>samochód osobowy typu SUV klasy wyższej</OpisModelu>
+					<Klasa>Enduro</Klasa>
+					<RokPowst>2008</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+			</Elementy>
+		</Podkategoria>
+		<Podkategoria>
+			<Nazwa>Kawasaki</Nazwa>
+			<Elementy>
+				<Element id="1">
+					<Model>Ninja 650</Model>
+					<OpisModelu>samochód osobowy typu SUV klasy wyższej</OpisModelu>
+					<Klasa>Sportowy</Klasa>
+					<RokPowst>2017</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="2">
+					<Model>VN700 Vulcan</Model>
+					<OpisModelu>samochód osobowy typu SUV klasy wyższej</OpisModelu>
+					<Klasa>Cruiser</Klasa>
+					<RokPowst>1985</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+				<Element id="3">
+					<Model>W650</Model>
+					<OpisModelu>samochód osobowy typu SUV klasy wyższej</OpisModelu>
+					<Klasa>Klasyczny</Klasa>
+					<RokPowst>1999</RokPowst>
+					<KrajPochodzenia Kod="JA">
+						<Nazwa>Japonia</Nazwa>
+					</KrajPochodzenia>
+				</Element>
+			</Elementy>
+		</Podkategoria>
+		</Podkategorie>
+	</Kategoria>
+</Kategorie>

@@ -1,17 +1,13 @@
-﻿<Window x:Class="NET_INIS4_PR2._2_Z4.MainWindow"
+﻿<Window x:Class="NET_INIS4_PR2._2_Z4.OknoKategorii"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NET_INIS4_PR2._2_Z4"
         mc:Ignorable="d"
-        Title="MainWindow"
         
-<<<<<<< HEAD
-        Height="650"
-=======
+        Title="OknoKategorii"
         Height="250"
->>>>>>> Finalna wersja aplikacji (do oceny)
         Width="500"
         FontSize="18"
         >
@@ -19,22 +15,11 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="100"/>
-<<<<<<< HEAD
-            <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        
+
         <ListBox
-            Name="GrupyProduktów"
-            DataContext="{DynamicResource DaneProdukty}"
-            ItemsSource="{Binding XPath=Grupa}"
-=======
-        </Grid.RowDefinitions>
-        
-        <ListBox
-            Name="Kategorie"
-            DataContext="{DynamicResource DanePojazdow}"
-            ItemsSource="{Binding XPath=Kategoria}"
->>>>>>> Finalna wersja aplikacji (do oceny)
+            Name="Podkategorie"
+            ItemsSource="{Binding XPath=Podkategorie/Podkategoria}"
             >
             <ListBox.ItemTemplate>
                 <DataTemplate>
@@ -43,13 +28,8 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <Button
-<<<<<<< HEAD
-            Grid.Row="1" Click="WyświetlGrupę"
-            >Edytuj</Button>
-=======
-            Grid.Row="1" Click="WyświetlKategorie"
-            >Wyświetl Kategorię</Button>
->>>>>>> Finalna wersja aplikacji (do oceny)
-        
+            Grid.Row="1" Click="WyswietlPodkategorie"
+            >Wyświetl Daną Markę</Button>
+
     </Grid>
 </Window>

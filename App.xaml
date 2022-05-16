@@ -5,9 +5,15 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <XmlDataProvider
+<<<<<<< HEAD
             Source="Produkty.xml"
             x:Key="DaneProdukty"
             XPath="GrupyProduktów"
+=======
+            Source="Pojazdy.xml"
+            x:Key="DanePojazdow"
+            XPath="Kategorie"
+>>>>>>> Finalna wersja aplikacji (do oceny)
             />
     </Application.Resources>
 </Application>
