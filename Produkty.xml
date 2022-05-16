@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GrupyProduktów>
+  <Grupa>
+    <Nazwa>Owoce</Nazwa>
+    <Produkty>
+      <Produkt
+      id="1234"
+      >
+        <Nazwa>Jabłko</Nazwa>
+        <Cena>3.45</Cena>
+        <Ilość>320</Ilość>
+        <Odmiana>
+          <Nazwa>Szampion</Nazwa>
+        </Odmiana>
+        <KrajPochodzenia Kod="PL">
+          <Nazwa>Polska</Nazwa>
+        </KrajPochodzenia>
+      </Produkt>
+      <Produkt
+        id="1235"
+      >
+        <Nazwa>Banan</Nazwa>
+        <Cena>1.45</Cena>
+        <Ilość>520</Ilość>
+        <Odmiana>
+          <Nazwa>Żółty</Nazwa>
+        </Odmiana>
+        <KrajPochodzenia Kod="BR">
+          <Nazwa>Brazylia</Nazwa>
+        </KrajPochodzenia>
+      </Produkt>
+      <Produkt
+        id="1236"
+      >
+        <Nazwa>Gruszka</Nazwa>
+        <Cena>2.65</Cena>
+        <Ilość>730</Ilość>
+        <Odmiana>
+          <Nazwa>Konferencja</Nazwa>
+        </Odmiana>
+        <KrajPochodzenia Kod="PL">
+          <Nazwa>Polska</Nazwa>
+        </KrajPochodzenia>
+      </Produkt>
+    </Produkty>
+  </Grupa>
+  <Grupa>
+    <Nazwa>Warzywa</Nazwa>
+    <Produkty>
+      <Produkt
+      id="1237"
+      >
+        <Nazwa>Cukinia</Nazwa>
+        <Cena>6.65</Cena>
+        <Ilość>100</Ilość>
+        <Odmiana>
+          <Nazwa>Zielona</Nazwa>
+        </Odmiana>
+        <KrajPochodzenia Kod="PL">
+          <Nazwa>Polska</Nazwa>
+        </KrajPochodzenia>
+      </Produkt>
+    </Produkty>
+  </Grupa>
+</GrupyProduktów>
